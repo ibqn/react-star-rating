@@ -25,7 +25,7 @@ const StarIcon = (props) => {
   )
 }
 
-StarIcon.prototype = {
+StarIcon.propTypes = {
   fill: PropTypes.string,
 }
 

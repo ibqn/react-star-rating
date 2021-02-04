@@ -31,7 +31,7 @@ const RatingIcon = (props) => {
   )
 }
 
-RatingIcon.PropTypes = {
+RatingIcon.propTypes = {
   index: PropTypes.number.isRequired,
   rating: PropTypes.number.isRequired,
   hoverRating: PropTypes.number.isRequired,
